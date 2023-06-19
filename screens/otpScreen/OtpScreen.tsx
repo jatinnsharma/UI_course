@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import React, {useRef, useState, useEffect} from 'react';
 
+//OtpScreenn arrow function 
 const OtpScreen = () => {
   const et1 = useRef();
   const et2 = useRef();
