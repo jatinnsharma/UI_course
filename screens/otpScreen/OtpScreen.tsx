@@ -38,7 +38,7 @@ const OtpScreen = () => {
   }, [count]);
 
   const optValidate=()=>{
-    let otp='123456';
+    let otp='173456';
     let enteredOtp = f1+f2+f3+f4+f5+f6;
     if(enteredOtp==otp){
       Alert.alert("OTP Matched")
